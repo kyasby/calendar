@@ -21,9 +21,13 @@ function App() {
         eventTextColor="black"
         events={[
           { title: "👦", date: `${thisMonth()}-01`, color: "gray"},
+          { title: "予測:1000人", date: `${thisMonth()}-01`, color: "gray", display: "background"},
           { title: "👦👦👦", date: `${thisMonth()}-02`, color: "red"},
-          { title: "👦👦", date: `${thisMonth()}-03`, color: "pink"},
+          { title: "予測:10000人", date: `${thisMonth()}-02`, color: "red", display: "background"},
+          { title: "👦👦", date: `${thisMonth()}-03`, color: "orange"},
+          { title: "予測:5000人", date: `${thisMonth()}-03`, color: "orange", display: "background"},
           { title: "👦👦👦", date: `${thisMonth()}-04`, color: "red"},
+          { title: "予測:9000人", date: `${thisMonth()}-04`, color: "red", display: "background"},
         ]}
       />
     </div>
